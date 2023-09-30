@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         Bloxd.io Keybinds v2.2
-// @namespace    http://tampermonkey.net/
-// @version      2.2
-// @description  (NEW - With GUI!) Easy keybinds to make gameplay more desirable
-// @author       zackiboiz
-// @match        *://bloxd.io/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=bloxd.io
-// @grant        none
-// @license      MIT
-// ==/UserScript==
 const version = "v2.2";
 localStorage.gui_top ??= 0;
 localStorage.gui_left ??= 0;
