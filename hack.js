@@ -15,7 +15,7 @@ localStorage.gui_left ??= 0;
 
 var gui = document.createElement("div");
 gui.setAttribute("id", "gui");
-gui.setAttribute(`style", "position: absolute; z-index: 9; background-color: #f1f1f1; border: 1px solid #d3d3d3; top: ${localStorage.gui_top}px; left: ${localStorage.gui_left}px;`);
+gui.setAttribute("style", `position: absolute; z-index: 9; background-color: #f1f1f1; border: 1px solid #d3d3d3; top: ${localStorage.gui_top}px; left: ${localStorage.gui_left}px;`);
 gui.innerHTML = `
 <div id="gui-header" style="padding: 10px; cursor: move; z-index: 10; background-color: #4eaddb; color: #fff; text-align: center;">
 <span style="font-size: 1.5em;">
