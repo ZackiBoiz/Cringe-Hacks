@@ -185,7 +185,7 @@ document.addEventListener("keydown", e => {
           timers.auto_respawn = timer;
           auto_respawn_span.style.color = "#00aa00";
         } else {
-          clearInterval(timers.spam_use);
+          clearInterval(timers.auto_respawn);
           timers.auto_respawn = null;
           auto_respawn_span.style.color = "#dd0000";
         }
